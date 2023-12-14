@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(104, 164, 243);
+  font-family: 'Times New Roman', Times, serif;
+  color:rgb(59, 34, 10);
+  font-size: 16px;
+  line-height: normal;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+h1 {
+  color: rgb(105, 41, 165);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 24px;
+  line-height:normal;
+}
+
+.img-circle {
+  width: 100;
+  border-radius: 50%;
+}
+
+.card-color {
+  background-color: brown;
+  box-shadow: 0px 0px 30px rgba(0,0,0.2);
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 204, 255);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+i {
+  color: black;
+  font-size: 50px;
+}
